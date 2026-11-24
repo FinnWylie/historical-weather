@@ -1,4 +1,4 @@
-package com.example.assignment.settings
+package com.example.assignment.ui.screens
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -7,12 +7,13 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 
+// Cut this page for time.
 @Composable
-fun SettingsScreen(modifier: Modifier = Modifier) {
+fun CurrentWeatherScreen(modifier: Modifier = Modifier) {
     Box(
         modifier = Modifier.fillMaxSize(),
         contentAlignment = Alignment.Center
     ) {
-        Text("Settings Screen")
+        Text("Current Weather Screen")
     }
 }
